@@ -1,0 +1,8 @@
+Bug-1
+adventurer card does not discard after the effect has completed
+All of the other cards have the discardCard method called but it does not
+
+Bug-2
+smithy card draws an extra card
+The for loop used for drawing cards starts at 0 and goes until i <= 3
+It should stop when i < 3
